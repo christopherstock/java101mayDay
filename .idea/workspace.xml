@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f43d61-ac7d-4a49-991f-cd67e7e9e434" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_28_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java101.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java101.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/java101.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/java101.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,6 +54,12 @@
                 <item name="java101" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="java101" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -63,23 +74,32 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46969697">
+    <splitter split-orientation="horizontal" split-proportion="0.62060606">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+                <state relative-caret-position="264">
+                  <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.34.2/b468298617f4be10aee45a35cac25c05018fdd37/google-http-client-1.34.2-sources.jar!/com/google/api/client/http/javanet/NetHttpTransport.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="203">
+                  <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="35">
-                  <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+                <state relative-caret-position="245">
+                  <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -91,8 +111,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+                <state relative-caret-position="349">
+                  <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="214">
+                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
@@ -135,9 +164,10 @@
         <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrame.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" />
-        <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" />
       </list>
     </option>
   </component>
@@ -248,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AppFrameTest.testFrameTitle">
+  <component name="RunManager" selected="Gradle.java101 [run]">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.mayflower.java101.App" />
       <module name="java101.main" />
@@ -268,26 +298,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;de.mayflower.java101.AppFrameTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppFrameTest.testFrameCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;de.mayflower.java101.AppFrameTest.testFrameCreation&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -342,13 +352,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="java101 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.java101 [run]" />
         <item itemvalue="Gradle.AppFrameTest.testFrameTitle" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.AppFrameTest" />
         <item itemvalue="Gradle.AppFrameTest.testFrameShow" />
-        <item itemvalue="Gradle.AppFrameTest.testFrameCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +391,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582277112361</updated>
-      <workItem from="1582277114246" duration="5200000" />
+      <workItem from="1582277114246" duration="7665000" />
     </task>
     <task id="LOCAL-00001" summary="Add class AppFrame.">
       <created>1582278002819</created>
@@ -399,13 +428,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582280939799</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add 1st real joke">
+      <created>1582282478800</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582282478800</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppFrameTest - 2020.02.21 at 11h 05m 37s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="AppFrameTest - 2020.02.21 at 11h 11m 36s.xml">
       <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -433,15 +466,18 @@
     <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 51m 12s.xml">
       <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 53m 16s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5200000" />
+    <option name="totallyTimeSpent" value="7665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57877815" visible="true" weight="0.120469086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.57877815" visible="true" weight="0.120469086" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Build" order="0" sideWeight="0.60554373" weight="0.39021614" />
@@ -454,7 +490,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.60394454" weight="0.44027305" />
       <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.6902985" weight="0.28782707" />
       <window_info anchor="bottom" id="Terminal" order="9" show_stripe_button="false" sideWeight="0.5772921" weight="0.25938568" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.6401919" weight="0.38452786" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.6401919" visible="true" weight="0.38452786" />
       <window_info anchor="bottom" id="Inspection" order="11" sideWeight="0.68210864" weight="0.41477272" />
       <window_info anchor="bottom" id="Thumbnails" order="12" sideWeight="0.4914803" weight="0.3291714" />
       <window_info anchor="bottom" id="Application Servers" order="13" />
@@ -470,7 +506,7 @@
       <window_info anchor="bottom" id="Atlassian " order="23" sideWeight="0.4765708" weight="0.47900113" />
       <window_info anchor="bottom" id="Docker" order="24" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="25" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="26" sideWeight="0.5346482" visible="true" weight="0.58589303" />
+      <window_info anchor="bottom" id="Run" order="26" sideWeight="0.5346482" weight="0.2764505" />
       <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -522,10 +558,28 @@
     <MESSAGE value="Add Panel to Frame" />
     <MESSAGE value="Add Button and Textfield" />
     <MESSAGE value="Add button press action" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add button press action" />
+    <MESSAGE value="Add 1st real joke" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 1st real joke" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>httpResponse.getContent()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>((JRootPane) frameComponents[ 0 ]).getContentPane()</expression-string>
         <language-id>JAVA</language-id>
@@ -555,24 +609,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="214">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.34.2/b468298617f4be10aee45a35cac25c05018fdd37/google-http-client-1.34.2-sources.jar!/com/google/api/client/http/javanet/NetHttpTransport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        <state relative-caret-position="203">
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="349">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>

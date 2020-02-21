@@ -1,13 +1,20 @@
 package de.mayflower.java101;
 
+import com.google.api.client.util.Key;
+
 public class Joke
 {
-   String type = "success";
-   JokeValue value = new JokeValue();
+   @Key("type")
+   String type;
+   @Key("value")
+   JokeValue value;
 
-   class JokeValue {
-     int id = 85;
-     String joke = "When Steven Seagal kills a ninja, he only takes its hide. When Chuck Norris kills a ninja, he uses every part.";
+   public static class JokeValue {
+     @Key("id")
+     int id;
+     @Key("joke")
+     String joke;
+     @Key("categories")
      String[] categories;
    }
 }
