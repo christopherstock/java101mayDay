@@ -1,6 +1,8 @@
 package de.mayflower.java101;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AppFrame
 {
@@ -10,6 +12,15 @@ public class AppFrame
         JPanel panel = new JPanel();
         JButton button = new JButton("Request a Joke");
         JTextField textField = new JTextField();
+        button.addActionListener(
+            new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    textField.setText("Button pressed");
+                }
+            }
+        );
+        textField.setEditable(false);
 
         frame.add( panel );
         panel.add(button);

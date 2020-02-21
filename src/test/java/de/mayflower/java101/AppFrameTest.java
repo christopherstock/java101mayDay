@@ -3,6 +3,8 @@ package de.mayflower.java101;
 import org.junit.Test;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+
 import static org.junit.Assert.*;
 
 public class AppFrameTest
@@ -23,5 +25,10 @@ public class AppFrameTest
         assertEquals("Request a Joke",  button.getText());
         JTextField textField = (JTextField)  panel.getComponent(1);
         assertEquals("",  textField.getText());
+        assertFalse(textField.isEditable());
+
+        button.getActionListeners()[0].actionPerformed(null);
+        assertEquals("Button pressed",  textField.getText());
+
     }
 }
