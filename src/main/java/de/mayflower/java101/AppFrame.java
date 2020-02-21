@@ -8,11 +8,12 @@ public class AppFrame
     {
         JFrame frame = new JFrame( "java101" );
         JPanel panel = new JPanel();
+        JButton button = new JButton("Request a Joke");
+        JTextField textField = new JTextField();
 
-
- //       frame.add( panel );
-
-
+        frame.add( panel );
+        panel.add(button);
+        panel.add(textField);
 
         return frame;
     }
