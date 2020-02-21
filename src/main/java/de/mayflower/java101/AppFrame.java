@@ -6,8 +6,14 @@ public class AppFrame
 {
     public static JFrame show()
     {
-        return new JFrame( "java101" );
+        JFrame frame = new JFrame( "java101" );
+        JPanel panel = new JPanel();
 
 
+ //       frame.add( panel );
+
+
+
+        return frame;
     }
 }
