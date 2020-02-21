@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f43d61-ac7d-4a49-991f-cd67e7e9e434" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" afterDir="false" />
     </list>
@@ -67,8 +69,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+                <state relative-caret-position="162">
+                  <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="35">
+                  <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -80,8 +91,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="471">
-                  <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+                <state relative-caret-position="191">
+                  <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -90,6 +110,21 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\&quot;</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -97,10 +132,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrame.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java" />
       </list>
     </option>
@@ -212,26 +248,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AppFrameTest">
-    <configuration name="AppFrame" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;de.mayflower.java101.AppFrame&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Gradle.AppFrameTest.testFrameTitle">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.mayflower.java101.App" />
+      <module name="java101.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.mayflower.java101.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AppFrameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -315,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AppFrameTest" />
         <item itemvalue="Gradle.AppFrameTest.testFrameTitle" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.AppFrameTest" />
         <item itemvalue="Gradle.AppFrameTest.testFrameShow" />
         <item itemvalue="Gradle.AppFrameTest.testFrameCreation" />
-        <item itemvalue="Gradle.AppFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +362,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582277112361</updated>
-      <workItem from="1582277114246" duration="3728000" />
+      <workItem from="1582277114246" duration="5200000" />
     </task>
     <task id="LOCAL-00001" summary="Add class AppFrame.">
       <created>1582278002819</created>
@@ -363,28 +392,17 @@
       <option name="project" value="LOCAL" />
       <updated>1582280055843</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add button press action">
+      <created>1582280939799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582280939799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppFrameTest - 2020.02.21 at 10h 50m 05s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AppFrameTest - 2020.02.21 at 10h 51m 20s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AppFrameTest - 2020.02.21 at 10h 54m 13s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AppFrameTest - 2020.02.21 at 10h 57m 45s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AppFrameTest - 2020.02.21 at 10h 59m 12s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="AppFrameTest - 2020.02.21 at 11h 05m 36s.xml">
-      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="AppFrameTest - 2020.02.21 at 11h 05m 37s.xml">
       <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -397,15 +415,33 @@
     <history-entry file="AppFrameTest - 2020.02.21 at 11h 13m 22s.xml">
       <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="AppFrameTest - 2020.02.21 at 11h 28m 22s.xml">
+      <configuration name="AppFrameTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 34m 37s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 38m 09s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 38m 10s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 50m 52s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AppFrameTest_testFrameTitle - 2020.02.21 at 11h 51m 12s.xml">
+      <configuration name="AppFrameTest.testFrameTitle" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3728000" />
+    <option name="totallyTimeSpent" value="5200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57877815" weight="0.120469086" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57877815" visible="true" weight="0.120469086" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Build" order="0" sideWeight="0.60554373" weight="0.39021614" />
@@ -434,7 +470,7 @@
       <window_info anchor="bottom" id="Atlassian " order="23" sideWeight="0.4765708" weight="0.47900113" />
       <window_info anchor="bottom" id="Docker" order="24" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="25" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="26" sideWeight="0.5346482" visible="true" weight="0.2400455" />
+      <window_info active="true" anchor="bottom" id="Run" order="26" sideWeight="0.5346482" visible="true" weight="0.58589303" />
       <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -450,52 +486,6 @@
       <window_info anchor="right" id="npm" order="12" sideWeight="0.5354201" side_tool="true" weight="0.2563966" />
       <window_info anchor="right" id="Structure" order="13" sideWeight="0.46349746" weight="0.25342464" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.57877815" visible="true" weight="0.120469086" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.60554373" weight="0.39021614" />
-      <window_info anchor="bottom" id="Problems" order="1" sideWeight="0.6485623" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" x="27" y="435" width="1878" height="293" id="Favorites" order="2" sideWeight="0.34168443" side_tool="true" visible="true" weight="0.3208191" />
-      <window_info anchor="bottom" id="TODO" order="3" sideWeight="0.32142857" side_tool="true" weight="0.3105802" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.35660982" side_tool="true" weight="0.258248" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.6748401" visible="true" weight="0.30944255" />
-      <window_info anchor="bottom" x="389" y="355" width="1142" height="307" id="Version Control" order="6" sideWeight="0.65831554" visible="true" weight="0.3208191" />
-      <window_info anchor="bottom" id="Inspection Results" order="7" sideWeight="0.60394454" weight="0.44027305" />
-      <window_info anchor="bottom" id="TypeScript" order="8" sideWeight="0.6902985" weight="0.28782707" />
-      <window_info anchor="bottom" id="Terminal" order="9" show_stripe_button="false" sideWeight="0.5772921" weight="0.25938568" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.6401919" weight="0.38479" />
-      <window_info anchor="bottom" id="Inspection" order="11" sideWeight="0.68210864" weight="0.41477272" />
-      <window_info anchor="bottom" id="Thumbnails" order="12" sideWeight="0.4914803" weight="0.3291714" />
-      <window_info anchor="bottom" id="Application Servers" order="13" />
-      <window_info anchor="bottom" id="Changes" order="14" sideWeight="0.6746539" visible="true" weight="0.44381386" />
-      <window_info anchor="bottom" id="File Transfer" order="15" sideWeight="0.7247071" weight="0.25681818" />
-      <window_info anchor="bottom" id="Message" order="16" />
-      <window_info anchor="bottom" id="Messages" order="17" sideWeight="0.59808105" weight="0.33030647" />
-      <window_info anchor="bottom" id="Cvs" order="18" weight="0.25" />
-      <window_info anchor="bottom" id="SVN Properties" order="19" sideWeight="0.6357827" weight="0.39204547" />
-      <window_info anchor="bottom" id="SVN Repositories" order="20" weight="0.32690126" />
-      <window_info anchor="bottom" id="CVS" order="21" weight="0.46083996" />
-      <window_info anchor="bottom" id="Issues - JIRA" order="22" sideWeight="0.74440897" weight="0.3893303" />
-      <window_info anchor="bottom" id="Atlassian " order="23" sideWeight="0.4765708" weight="0.47900113" />
-      <window_info anchor="bottom" id="Docker" order="24" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="25" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="26" sideWeight="0.5346482" weight="0.54266214" />
-      <window_info anchor="right" id="Gradle" order="0" weight="0.32995737" />
-      <window_info anchor="right" id="Palette" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Remote Host" order="3" show_stripe_button="false" sideWeight="0.4744409" weight="0.30227274" />
-      <window_info anchor="right" id="Database" order="4" show_stripe_button="false" sideWeight="0.34132054" weight="0.25681818" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" show_stripe_button="false" sideWeight="0.497479" weight="0.25" />
-      <window_info anchor="right" x="746" y="366" width="428" height="285" id="Coverage" order="7" sideWeight="0.58112586" side_tool="true" weight="0.21086262" />
-      <window_info anchor="right" id="Maven Projects" order="8" show_stripe_button="false" sideWeight="0.40840337" weight="0.26066098" />
-      <window_info anchor="right" id="SciView" order="9" sideWeight="0.49834985" weight="0.32995737" />
-      <window_info anchor="right" id="Maven" order="10" show_stripe_button="false" sideWeight="0.49834985" weight="0.32995737" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" sideWeight="0.53650254" side_tool="true" weight="0.2531983" />
-      <window_info anchor="right" id="npm" order="12" sideWeight="0.5354201" side_tool="true" weight="0.2563966" />
-      <window_info anchor="right" id="Structure" order="13" sideWeight="0.46349746" weight="0.25342464" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -531,25 +521,8 @@
     <MESSAGE value="Added AppFrame.show." />
     <MESSAGE value="Add Panel to Frame" />
     <MESSAGE value="Add Button and Textfield" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Button and Textfield" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add button press action" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add button press action" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -577,22 +550,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/Joke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/mayflower/java101/AppFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="162">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/mayflower/java101/AppFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="191">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
         </state>
       </provider>
     </entry>

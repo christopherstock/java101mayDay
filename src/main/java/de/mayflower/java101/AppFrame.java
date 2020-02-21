@@ -12,11 +12,14 @@ public class AppFrame
         JPanel panel = new JPanel();
         JButton button = new JButton("Request a Joke");
         JTextField textField = new JTextField();
+        textField.setColumns(80);
         button.addActionListener(
             new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    textField.setText("Button pressed");
+                    Joke joke = new Joke();
+
+                    textField.setText(joke.value.joke);
                 }
             }
         );
@@ -25,6 +28,9 @@ public class AppFrame
         frame.add( panel );
         panel.add(button);
         panel.add(textField);
+
+        frame.setVisible(true);
+        frame.setSize(1000,200);
 
         return frame;
     }

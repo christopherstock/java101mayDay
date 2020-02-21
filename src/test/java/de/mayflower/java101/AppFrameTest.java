@@ -13,6 +13,9 @@ public class AppFrameTest
     {
         JFrame frame = AppFrame.show();
         assertEquals( "java101", frame.getTitle() );
+        assertTrue(frame.isVisible());
+        assertEquals(1000, frame.getWidth());
+        assertEquals(200, frame.getHeight());
 
         JRootPane rootComponent = (JRootPane) frame.getComponent(0);
         JLayeredPane layerdPanel = (JLayeredPane) rootComponent.getComponent(1);
@@ -28,7 +31,7 @@ public class AppFrameTest
         assertFalse(textField.isEditable());
 
         button.getActionListeners()[0].actionPerformed(null);
-        assertEquals("Button pressed",  textField.getText());
-
+        String expected = "When Steven Seagal kills a ninja, he only takes its hide. When Chuck Norris kills a ninja, he uses every part.";
+        assertEquals(expected,  textField.getText());
     }
 }
